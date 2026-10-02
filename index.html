@@ -1,175 +1,1105 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
+    <meta name="description"
+        content="Kipchirchir Amozi - Web Developer and Database Developer Portfolio">
+
+    <meta name="author" content="Kipchirchir Amozi">
+
+    <title>Kipchirchir Amozi | Web & Database Developer</title>
 
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">My Portfolio</h1>
+    <!-- ================= HEADER ================= -->
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="header" id="header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span>KA</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <nav class="nav" id="nav">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+
+                <a href="#skills" class="nav-link">
+                    Skills
+                </a>
+
+                <a href="#database" class="nav-link">
+                    Database
+                </a>
+
+                <a href="#projects" class="nav-link">
+                    Projects
+                </a>
+
+                <a href="#experience" class="nav-link">
+                    Experience
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="hero">
 
-        <div class="hero-content">
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+    <!-- ================= MAIN ================= -->
 
-            <h2>Hello, I'm <span>AMOS KIPCHIRCHIR</span></h2>
+    <main>
 
-            <p>
-                I am a web development student passionate about creating
-                simple, professional and user-friendly websites.
-            </p>
 
-            <a href="#projects" class="btn">View My Work</a>
-        </div>
+        <!-- ================= HERO ================= -->
 
-    </section>
+        <section class="hero" id="home">
 
-    <!-- About Section -->
-    <section id="about" class="section">
+            <div class="container hero-container">
 
-        <h2>About Me</h2>
+                <div class="hero-content">
 
-        <div class="about-content">
+                    <p class="hero-label">
+                        WEB DEVELOPER • DATABASE DEVELOPER
+                    </p>
+
+                    <h1>
+                        Building digital
+                        <span>solutions</span>
+                        that work.
+                    </h1>
+
+                    <p class="hero-description">
+
+                        I'm <strong>Kipchirchir Amozi</strong>,
+                        a developer focused on building responsive
+                        websites, database-driven applications and
+                        practical digital solutions.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects"
+                            class="btn btn-primary">
+
+                            View Projects
+                            <span>→</span>
+
+                        </a>
+
+                        <a href="#contact"
+                            class="btn btn-outline">
+
+                            Contact Me
+
+                        </a>
+
+                    </div>
+
+                    <div class="hero-social">
+
+                        <a
+                            href="https://github.com/Amozi0726"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            GitHub
+
+                        </a>
+
+                        <span></span>
+
+                        <a href="mailto:Kipchirchiramos98@gmail.com">
+
+                            Email
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO VISUAL -->
+
+                <div class="hero-visual">
+
+                    <div class="profile-card">
+
+                        <div class="profile-top">
+
+                            <div class="profile-status"></div>
+
+                            <span>
+                                Available for projects
+                            </span>
+
+                        </div>
+
+                        <div class="profile-initials">
+                            KA
+                        </div>
+
+                        <h2>
+                            Kipchirchir Amozi
+                        </h2>
+
+                        <p>
+                            Web & Database Developer
+                        </p>
+
+                        <div class="profile-line"></div>
+
+                        <div class="profile-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="section-label">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        A developer focused on
+                        <span>practical solutions.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-description">
+
+                        <p>
+
+                            I am a developing web and database
+                            professional with a strong interest in
+                            creating useful, reliable and
+                            user-friendly digital systems.
+
+                        </p>
+
+                        <p>
+
+                            My learning journey focuses on frontend
+                            development, backend development,
+                            database management and practical
+                            software projects.
+
+                        </p>
+
+                        <p>
+
+                            I enjoy taking an idea, designing the
+                            interface, structuring the data and
+                            connecting the different parts into a
+                            working application.
+
+                        </p>
+
+                        <a href="#contact"
+                            class="text-link">
+
+                            Let's work together →
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="about-details">
+
+                        <div class="detail">
+
+                            <span>
+                                Name
+                            </span>
+
+                            <strong>
+                                Kipchirchir Amozi
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span>
+                                Specialization
+                            </span>
+
+                            <strong>
+                                Web & Database Development
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span>
+                                Frontend
+                            </span>
+
+                            <strong>
+                                HTML / CSS / JavaScript
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span>
+                                Backend
+                            </span>
+
+                            <strong>
+                                PHP / Node.js
+                            </strong>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <span>
+                                Database
+                            </span>
+
+                            <strong>
+                                MySQL / SQL
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section dark-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-header light">
+
+                    <p class="section-label">
+                        TECHNICAL SKILLS
+                    </p>
+
+                    <h2>
+                        Technologies I use
+                        <span>and learn.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            01
+                        </div>
+
+                        <h3>
+                            HTML5
+                        </h3>
+
+                        <p>
+                            Semantic and accessible website
+                            structure.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            02
+                        </div>
+
+                        <h3>
+                            CSS3
+                        </h3>
+
+                        <p>
+                            Responsive layouts and modern
+                            interface design.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            03
+                        </div>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            Interactive and dynamic web
+                            experiences.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            04
+                        </div>
+
+                        <h3>
+                            PHP
+                        </h3>
+
+                        <p>
+                            Server-side programming and
+                            application logic.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            05
+                        </div>
+
+                        <h3>
+                            MySQL
+                        </h3>
+
+                        <p>
+                            Relational database design and
+                            data management.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            06
+                        </div>
+
+                        <h3>
+                            Node.js
+                        </h3>
+
+                        <p>
+                            Backend development and
+                            server-side applications.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            07
+                        </div>
+
+                        <h3>
+                            Git & GitHub
+                        </h3>
+
+                        <p>
+                            Version control and project
+                            collaboration.
+                        </p>
+
+                    </div>
+
+
+                    <div class="skill">
+
+                        <div class="skill-number">
+                            08
+                        </div>
+
+                        <h3>
+                            XAMPP
+                        </h3>
+
+                        <p>
+                            Local PHP and MySQL development
+                            environment.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DATABASE ================= -->
+
+        <section class="section database-section" id="database">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="section-label">
+                        DATABASE DEVELOPMENT
+                    </p>
+
+                    <h2>
+                        Designing and managing
+                        <span>data.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="database-grid">
+
+
+                    <div class="database-text">
+
+                        <p>
+
+                            Database development is an important
+                            part of my current learning journey.
+                            I use MySQL and SQL to design,
+                            organize and manage structured data.
+
+                        </p>
+
+                        <p>
+
+                            I am learning how databases connect
+                            with web applications using PHP,
+                            XAMPP and backend technologies.
+
+                        </p>
+
+
+                        <div class="database-list">
+
+                            <div>
+                                <strong>
+                                    Database Design
+                                </strong>
+
+                                <span>
+                                    Tables, fields and relationships
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <strong>
+                                    SQL
+                                </strong>
+
+                                <span>
+                                    SELECT, INSERT, UPDATE and DELETE
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <strong>
+                                    Data Relationships
+                                </strong>
+
+                                <span>
+                                    Primary keys and foreign keys
+                                </span>
+                            </div>
+
+
+                            <div>
+                                <strong>
+                                    CRUD Operations
+                                </strong>
+
+                                <span>
+                                    Create, Read, Update and Delete
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DATABASE WINDOW -->
+
+                    <div class="database-window">
+
+                        <div class="database-window-top">
+
+                            <span>
+                                MySQL Database
+                            </span>
+
+                            <span class="database-online">
+                                ● Connected
+                            </span>
+
+                        </div>
+
+
+                        <div class="database-code">
+
+<pre><code>CREATE DATABASE
+hospital_management;
+
+CREATE TABLE patients (
+    patient_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    phone VARCHAR(20)
+);
+
+SELECT *
+FROM patients;</code></pre>
+
+                        </div>
+
+
+                        <div class="database-status">
+
+                            <span>
+                                Tables
+                            </span>
+
+                            <strong>
+                                Patients
+                            </strong>
+
+                            <strong>
+                                Doctors
+                            </strong>
+
+                            <strong>
+                                Appointments
+                            </strong>
+
+                            <strong>
+                                Billing
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section" id="projects">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <p class="section-label">
+                        SELECTED PROJECTS
+                    </p>
+
+                    <h2>
+                        Things I have been
+                        <span>building.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- HOSPITAL -->
+
+                    <article class="project project-large">
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                WEB APPLICATION
+                            </p>
+
+                            <h3>
+                                Hospital Management System
+                            </h3>
+
+                            <p>
+
+                                A professional hospital management
+                                interface designed to organize
+                                patients, doctors, appointments,
+                                billing and reports.
+
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>XAMPP</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-index">
+                            01
+                        </div>
+
+                    </article>
+
+
+                    <!-- SCHOOL DATABASE -->
+
+                    <article class="project">
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                DATABASE
+                            </p>
+
+                            <h3>
+                                School Database System
+                            </h3>
+
+                            <p>
+
+                                A MySQL database project involving
+                                database design, records,
+                                relationships, constraints and
+                                SQL data manipulation.
+
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>MySQL</span>
+                                <span>SQL</span>
+                                <span>Database Design</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-index">
+                            02
+                        </div>
+
+                    </article>
+
+
+                    <!-- PORTFOLIO -->
+
+                    <article class="project">
+
+                        <div class="project-content">
+
+                            <p class="project-category">
+                                PERSONAL WEBSITE
+                            </p>
+
+                            <h3>
+                                Professional Portfolio
+                            </h3>
+
+                            <p>
+
+                                A responsive developer portfolio
+                                created to showcase my technical
+                                skills, projects, database work
+                                and development journey.
+
+                            </p>
+
+                            <div class="project-tags">
+
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>GitHub</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-index">
+                            03
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="github-projects">
+
+                    <a
+                        href="https://github.com/Amozi0726"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="github-button">
+
+                        View More Projects on GitHub
+                        <span>→</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section
+            class="section dark-section"
+            id="experience">
+
+            <div class="container">
+
+                <div class="section-header light">
+
+                    <p class="section-label">
+                        EXPERIENCE & LEARNING
+                    </p>
+
+                    <h2>
+                        My journey in
+                        <span>technology.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            CURRENT
+                        </div>
+
+                        <div class="timeline-line"></div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Web Development
+                            </h3>
+
+                            <p>
+
+                                Building practical web projects
+                                using HTML, CSS, JavaScript,
+                                PHP and backend technologies.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            DATABASE
+                        </div>
+
+                        <div class="timeline-line"></div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                MySQL & SQL Development
+                            </h3>
+
+                            <p>
+
+                                Developing practical knowledge
+                                in database design, SQL queries,
+                                relationships, constraints and
+                                CRUD operations.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            ICT
+                        </div>
+
+                        <div class="timeline-line"></div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                ICT & Technical Skills
+                            </h3>
+
+                            <p>
+
+                                Developing practical skills in
+                                computer systems, networking,
+                                software and technical support.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-intro">
+
+                        <p class="section-label">
+                            CONTACT
+                        </p>
+
+                        <h2>
+                            Let's build something
+                            <span>useful.</span>
+                        </h2>
+
+                        <p>
+
+                            Have a project, opportunity or idea
+                            you'd like to discuss? Feel free to
+                            contact me.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-details">
+
+
+                        <a
+                            href="mailto:Kipchirchiramos98@gmail.com"
+                            class="contact-item">
+
+                            <span class="contact-label">
+                                EMAIL
+                            </span>
+
+                            <strong>
+                                Kipchirchiramos98@gmail.com
+                            </strong>
+
+                        </a>
+
+
+                        <a
+                            href="tel:0726096831"
+                            class="contact-item">
+
+                            <span class="contact-label">
+                                PHONE
+                            </span>
+
+                            <strong>
+                                0726096831
+                            </strong>
+
+                        </a>
+
+
+                        <a
+                            href="https://github.com/Amozi0726"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-item">
+
+                            <span class="contact-label">
+                                GITHUB
+                            </span>
+
+                            <strong>
+                                github.com/Amozi0726
+                            </strong>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
             <div>
-                <p>
-                    I am a passionate web developer interested in
-                    creating modern websites and applications.
-                </p>
+
+                <a href="#home" class="footer-logo">
+                    KA<span>.</span>
+                </a>
 
                 <p>
-                    I enjoy learning new technologies and developing projects
-                    that solve real-world problems.
+                    Web & Database Developer
                 </p>
-            </div>
-        </div>
 
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-
-        <h2>My Skills</h2>
-
-        <div class="skills">
-
-            <div class="skill">
-                <h3>HTML</h3>
-                <p>Creating structured and accessible web pages.</p>
             </div>
 
-            <div class="skill">
-                <h3>CSS</h3>
-                <p>Designing responsive and professional websites.</p>
+
+            <div class="footer-links">
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
             </div>
 
-            <div class="skill">
-                <h3>JavaScript</h3>
-                <p>Adding interaction and functionality to websites.</p>
-            </div>
 
-            <div class="skill">
-                <h3>PHP</h3>
-                <p>Developing server-side web applications.</p>
-            </div>
+            <div class="footer-copy">
 
-            <div class="skill">
-                <h3>MySQL</h3>
-                <p>Creating and managing databases.</p>
-            </div>
+                <p>
+                    © <span id="year"></span>
+                    Kipchirchir Amozi
+                </p>
 
-            <div class="skill">
-                <h3>Node.js</h3>
-                <p>Building backend applications and APIs.</p>
             </div>
 
         </div>
 
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-
-        <h2>My Projects</h2>
-
-        <div class="projects">
-
-            <div class="project">
-                <h3>Hospital Management System</h3>
-                <p>
-                    A web-based system designed to manage patients,
-                    doctors, appointments, billing and reports.
-                </p>
-
-                <a href="#">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>School Management System</h3>
-                <p>
-                    A system for managing students, courses and
-                    school-related information.
-                </p>
-
-                <a href="#">View Project</a>
-            </div>
-
-            <div class="project">
-                <h3>Personal Website</h3>
-                <p>
-                    A responsive personal website created using
-                    HTML, CSS and JavaScript.
-                </p>
-
-                <a href="#">View Project</a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-
-        <h2>Contact Me</h2>
-
-        <p>
-            If you would like to work with me or have any questions,
-            feel free to contact me.
-        </p>
-
-        <div class="contact-details">
-            <p><strong>Email:</strong> kipchirchiramos98@gmail.com</p>
-            <p><strong>Phone:</strong> +254 726096831</p>
-            <p><strong>Location:</strong> Kenya</p>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
     </footer>
 
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
